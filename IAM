@@ -1,1 +1,32 @@
+day2:-
+AWS-IAM -identity and access management control
+Note-in organization-never use the root account
 
+IAM-in the aws , IAM maintain to do authentication and authorization.
+if when consumer or user want to access the service. the devops do the task. we can select the service that consumer can access[read or wright] or not. its will work on based on the polices company providerd or requirement.
+
+IAM HAVE THE FOUR THING TO GIVE THE ACCESS.
+-USER
+-polices
+-groups
+-roles
+
+we need to create the user and set the polices[user and policez]
+issue:
+when the user or employ join and resgin. its will take every time 2 to 3hour to set the user and polices. 
+to resolve this we have come up with the groups.
+
+we have the groups
+1.QA
+2.DEVEloper
+3.admin
+4.dbadmin
+when the user come to the company and based on the roles. we just need to add into that group.
+
+roles:
+roles are similer to the user. its mean to be use for tempveroy purpose to access the service.
+when we communicate between the two aws account. and when we use the outside of IAM activitys.
+
+Polices:-
+custom policies-provide by aws
+private policies- created by company's or devops team.
